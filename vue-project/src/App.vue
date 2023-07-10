@@ -28,7 +28,7 @@ import { ref } from "vue";
     <AproovedForm
       :apiKey="aprooved.apiKey"
       :apiSecret="aprooved.apiSecret"
-      :status="!aprooved.status"
+      :status="aprooved.status"
     />
   </div>
 </template>
